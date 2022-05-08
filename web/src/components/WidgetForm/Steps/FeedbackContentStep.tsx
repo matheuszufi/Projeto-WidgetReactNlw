@@ -12,6 +12,9 @@ export function FeedbackContentStep ({
     feedbackType, 
     onFeedbackRestartRequested
 } : FeedbackContentStepProps) {
+
+    /* */
+
   const feedbackTypeInfo = feedbackTypes[feedbackType];
   
     return (
